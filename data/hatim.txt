@@ -1,0 +1,184 @@
+Identity
+
+Full Name: Hatim Huned Materwala
+
+Hatim is a Computer Programming & Analysis student at Seneca Polytechnic (North York, Ontario, Canada) with a strong academic record and a clear focus on Software Development Engineer (SDE) internships for Summer 2026. He is highly disciplined, technically ambitious, and deeply committed to mastering software engineering fundamentals.
+
+Contact Information
+
+Email: hatimmater1234@gmail.com
+
+GitHub: https://github.com/HatimMaterwala
+
+Phone: 437-868-0165
+
+Education
+
+Seneca Polytechnic — North York, Ontario
+Advanced Diploma: Computer Programming & Analysis
+Expected Graduation: Fall 2026
+GPA: 3.8 / 4.0
+
+Relevant Coursework (SDE-Focused)
+
+Data Structures & Algorithms
+
+Object-Oriented Programming (C++)
+
+Full Stack Web Development
+
+Operating Systems (Linux)
+
+Database Systems (Oracle SQL)
+
+Software Testing & QA
+
+System Design Fundamentals
+
+Agile Development (Jira)
+
+Honors & Achievements
+
+Seneca President’s Honour List — Summer 2024
+
+Academic GPA: 3.9 / 4.0
+
+Leadership & Collaboration
+
+Member, Software Developer Club
+
+Participant, SEC-2024
+
+Team Lead, Agile Software Testing Project
+
+Project: Shortest Path System for Trucks
+
+Led planning, task breakdown, testing strategy, and collaboration using Agile methodologies
+
+Technical Skills
+
+Programming Languages
+
+C, C++, Python, JavaScript, Java
+
+Web & Application Development
+
+HTML5, CSS3
+
+React, Redux
+
+Node.js, Express.js, Next.js
+
+Databases
+
+Oracle SQL
+
+MongoDB
+
+Developer Tools & Platforms
+
+Git, GitHub
+
+Linux
+
+Agile / Scrum
+
+FastAPI
+
+RapidAPI
+
+Software Engineering Projects
+1) PassOP – Password Manager (React)
+
+Designed and developed a secure password management application using React.
+
+Implemented full CRUD operations for credential management with client-side validation.
+
+Built duplicate-entry detection logic to prevent redundant records.
+
+Integrated encrypted local storage for credential persistence.
+
+Enhanced UX with real-time notifications using react-toastify.
+
+Implemented password masking using regex and toggleable visibility via Material UI icons.
+
+Added one-click clipboard copy using the browser Clipboard API.
+
+Tech Stack: React, JavaScript, HTML, CSS, Local Storage APIs
+
+2) Text-Based RPG Game Engine (C++)
+
+Architected a modular game engine with three playable classes: Barbarian, Archer, Rogue.
+
+Applied OOP principles, templates, and polymorphism for scalable combat logic.
+
+Followed the Rule of Five to ensure memory-safe class design.
+
+Utilized STL containers for entity and state management.
+
+Implemented class-specific mechanics:
+
+Barbarian: Dual-weapon damage system
+
+Archer: SuperHealth defense system
+
+Rogue: Ability-based combat synergies
+
+Used operator overloading and smart pointers for clean, safe abstractions.
+
+Tech Stack: C++, STL, OOP, Memory Management
+
+3) Spotify Clone (JavaScript)
+
+Built a functional music streaming UI supporting play/pause, track skipping, and volume control.
+
+Implemented dynamic playlist loading using async data fetching and DOMParser.
+
+Developed a draggable progress bar with real-time playback updates.
+
+Designed responsive UI components for albums and track listings.
+
+Managed application state to reflect real-time song and UI changes.
+
+Tech Stack: JavaScript, HTML, CSS, Async Programming, DOM APIs
+
+Career Focus (Short-Term)
+
+Hatim is fully focused on securing a Software Development Engineer (SDE) Internship for Summer 2026, with emphasis on:
+
+Strong coding fundamentals
+
+Data structures and algorithms
+
+Object-oriented design
+
+Backend and full-stack development
+
+Writing clean, testable, and scalable code
+
+Long-Term Direction (Contextual Only)
+
+While Hatim has long-term interests in cybersecurity, his current priority is software engineering excellence and building a strong foundation through SDE internships and engineering roles.
+
+Personality & Work Ethic
+
+Hatim is known for being:
+
+Highly disciplined and consistent
+
+Curious and technically deep
+
+Obsessed with mastering fundamentals
+
+Comfortable with complex problem-solving
+
+Driven by long-term growth, not shortcuts
+
+Assistant Behavior Rules
+
+Answer only using information contained in this document.
+
+Do not invent or assume additional experience.
+
+If information is not present, respond with:
+“That information is not available in the resume data.”
