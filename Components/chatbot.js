@@ -30,9 +30,9 @@ export default function Chatbot() {
   };
 
   return (
-    <div>
+    <div className="w-full">
       {!chatOpen ? (
-        <div className="fixed bottom-10 right-10 z-50   ">
+        <div className="fixed bottom-10 right-10 z-50">
           <Image
             src={"/assets/img/chatbot_image.jpeg"}
             width={50}
@@ -47,7 +47,7 @@ export default function Chatbot() {
           e.preventDefault();
           if(!quest.trim() || loading) return;
           submitQuestion();
-        }}   className="z-50 fixed bottom-6 right-6 w-1/2">
+        }} className="z-50 fixed bottom-6 right-6 w-[90vw] md:w-1/2 ">
           <div className="w-full max-w-3xl h-[78vh] sm:h-[75vh] md:h-[72vh] lg:h-[68vh] px-4 flex items-center">
             <div className="w-full h-full rounded-2xl bg-gradient-to-b from-white/5 via-white/3 to-black/0 border border-white/5 backdrop-blur-md p-6 flex flex-col shadow-2xl">
               <header className="flex items-center justify-between mb-4">
@@ -63,16 +63,13 @@ export default function Chatbot() {
               </header>
 
               <div className="flex gap-3 items-center mb-4">
-                <label htmlFor="question" className="sr-only">
-                  Enter your question
-                </label>
                 <input
                   id="question"
                   type="text"
                   placeholder="Ask me anything..."
                   value={quest}
                   onChange={(e) => setQuest(e.target.value)}
-                  className="flex-1 bg-black/50 placeholder-white/40 text-white rounded-xl px-4 py-3 border border-white/8 focus:outline-none focus:ring-2 focus:ring-white/10 transition"
+                  className="w-2/3 flex-1 bg-black/50 placeholder-white/40 text-white rounded-xl px-4 py-3 border border-white/8 focus:outline-none focus:ring-2 focus:ring-white/10 transition"
                 />
 
                 <button
