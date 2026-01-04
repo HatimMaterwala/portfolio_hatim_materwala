@@ -38,7 +38,7 @@ export default function Contact() {
   return (
     <div
       id="contact"
-      className="min-h-screen flex-col items-center justify-center bg-black px-10 py-3 z-10"
+      className="flex flex-col items-center justify-center bg-black px-10 py-3 z-10"
     >
       <div className="w-full h-0.5 bg-gradient-to-r from-transparent via-green-500 to-transparent my-15" />
       <div className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-10 items-center">

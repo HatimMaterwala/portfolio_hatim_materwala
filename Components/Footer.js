@@ -5,7 +5,7 @@ import { Github, Linkedin, Mail, Code } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="relative bg-black text-white pt-20 pb-10">
+    <footer className="relative bg-black text-white  pb-10 py-10">
       {/* Green Accent Line */}
       <div className="w-full h-[2px] bg-gradient-to-r from-transparent via-green-500 to-transparent mb-10" />
 
