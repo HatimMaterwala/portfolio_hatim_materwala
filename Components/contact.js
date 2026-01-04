@@ -2,6 +2,7 @@
 
 import Earth from "@/Components/Earth";
 import { useForm } from "react-hook-form";
+import { toast } from "react-toastify";
 
 export default function Contact() {
   const {
@@ -24,12 +25,12 @@ export default function Contact() {
       const res = await sendEmail.json();
 
       if (sendEmail.ok) {
-        alert(`Mail Sent Successfully !!`);
+        toast.success("✉️ Mail Sent Successfully !!");
       } else {
         console.log(res);
       }
     } catch (err) {
-      alert(`Can't send email - Try Again !! - ${err}`);
+      toast.error("🔴 Can't send email - Please try Again later !!");
     }
 
     reset();
@@ -97,7 +98,7 @@ export default function Contact() {
 
             <button
               disabled={isSubmitting}
-              className="w-full rounded-lg bg-green-600 text-white py-2 font-medium hover:bg-green-700 transition disabled:opacity-50"
+              className="w-full rounded-lg bg-green-600 text-white py-2 font-medium hover:bg-green-700 transition disabled:opacity-50 cursor-pointer  "
             >
               Send Message
             </button>

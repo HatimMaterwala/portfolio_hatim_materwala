@@ -1,9 +1,9 @@
 export default function Certifications() {
   return (
-    <section className="py-24 bg-black relative overflow-hidden">
+    <section className="py-12 bg-black relative overflow-hidden">
       {/* background glow */}
-      <div className="w-full h-0.5 bg-gradient-to-r from-transparent via-green-500 to-transparent mb-15" />
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(34,197,94,0.15),transparent_60%)]" />
+      <div className="w-full h-0.5 bg-gradient-to-r from-transparent via-green-500 to-transparent mb-10" />
+      {/* <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(34,197,94,0.15),transparent_60%)]" /> */}
 
       <div className="relative max-w-6xl mx-auto px-6">
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">

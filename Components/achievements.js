@@ -11,7 +11,7 @@ export default function Achievements() {
   return (
     <section
       id="achievements"
-      className="relative w-full bg-black px-4 sm:px-6 py-20 overflow-hidden"
+      className="relative w-full bg-black px-4 sm:px-6 py-8 overflow-hidden"
     >
       <div className="w-full h-0.5 bg-gradient-to-r from-transparent via-green-500 to-transparent mb-16" />
       <div className="absolute inset-0 bg-green-500/5 blur-3xl opacity-40 animate-pulse" />
