@@ -7,8 +7,16 @@ export default function AboutSection() {
   return (
     <section id="about" className="bg-black text-white py-22 px-6">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-        
-        {/* LEFT — STORY */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.7 }}
+          className="h-90 rounded-2xl border border-green-900/40"
+        >
+          <DevModel />
+        </motion.div>
+
         <motion.div
           initial={{ opacity: 0, x: -30 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -20,34 +28,32 @@ export default function AboutSection() {
           </h2>
 
           <p className="text-gray-300 leading-relaxed mb-6">
-            I’m <span className="text-green-400 font-semibold">Hatim Materwala</span> —
-            a developer who treats software as a system, not a script.
-            I care about how things scale, break, recover, and evolve.
+            I’m{" "}
+            <span className="text-green-400 font-semibold">
+              Hatim Materwala
+            </span>{" "}
+            — a developer who treats software as a system, not a script. I care
+            about how things scale, break, recover, and evolve.
           </p>
 
           <p className="text-gray-400 leading-relaxed mb-6">
-            From building full-stack platforms to solving data-structure problems
-            under constraints, my focus has always been the same:
-            <span className="text-green-400"> clarity, performance, and reliability</span>.
+            From building full-stack platforms to solving data-structure
+            problems under constraints, my focus has always been the same:
+            <span className="text-green-400">
+              {" "}
+              clarity, performance, and reliability
+            </span>
+            .
           </p>
 
           <p className="text-gray-400 leading-relaxed">
-            I’m currently preparing for <span className="text-green-400 font-semibold">
-            Summer 2026 Software Engineering Internships</span>,
-            strengthening my foundations through real projects,
-            LeetCode problem-solving, and production-level architecture.
+            I’m currently preparing for{" "}
+            <span className="text-green-400 font-semibold">
+              Summer 2026 Software Engineering Internships
+            </span>
+            , strengthening my foundations through real projects, LeetCode
+            problem-solving, and production-level architecture.
           </p>
-        </motion.div>
-
-        {/* RIGHT — 3D */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.7 }}
-          className="h-90 rounded-2xl border border-green-900/40"
-        >
-          <DevModel />
         </motion.div>
       </div>
 
