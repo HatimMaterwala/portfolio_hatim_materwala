@@ -10,7 +10,7 @@ export default function WorkHistory() {
         <h2 className="text-4xl font-bold text-white mb-4">
           Work History
         </h2>
-        <p className="text-green-400 mb-16">
+        <p className="text-green-400 mb-8">
           Real-world experience, ownership, and impact.
         </p>
 

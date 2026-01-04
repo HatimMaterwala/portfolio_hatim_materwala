@@ -44,7 +44,8 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="bg-black text-white pt-12 px-6">
+    <section id="projects" className="bg-black text-white pt-1 px-6">
+        <div className="w-full h-0.5 bg-gradient-to-r from-transparent via-green-500 to-transparent my-15" />
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <motion.div
@@ -52,7 +53,7 @@ export default function Projects() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="mb-20"
+          className="mb-10"
         >
           <h2 className="text-4xl font-bold text-green-500 mb-4">
             Selected Projects

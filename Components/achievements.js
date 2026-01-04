@@ -10,7 +10,6 @@ export default function Achievements() {
     },[])
 
     if(!mounted) return null;
-    
   return (
     <section id="achievements" className="relative w-full bg-black px-6 overflow-hidden">
     <div className="w-full h-0.5 bg-gradient-to-r from-transparent via-green-500 to-transparent mb-15" />

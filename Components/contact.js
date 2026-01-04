@@ -40,7 +40,7 @@ export default function Contact() {
       id="contact"
       className="flex flex-col items-center justify-center bg-black px-10 py-3 z-10"
     >
-      <div className="w-full h-0.5 bg-gradient-to-r from-transparent via-green-500 to-transparent my-15" />
+      <div className="w-full h-0.5 bg-gradient-to-r from-transparent via-green-500 to-transparent mb-10" />
       <div className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         <div>
           <h1 className="text-3xl font-semibold text-green-700 mb-2">

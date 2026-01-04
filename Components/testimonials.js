@@ -27,8 +27,8 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="w-full bg-black py-6 px-6">
-        <div className="w-full h-0.5 bg-gradient-to-r from-transparent via-green-500 to-transparent my-15" />
+    <section className="w-full bg-black py-10 px-6">
+        <div className="w-full h-0.5 bg-gradient-to-r from-transparent via-green-500 to-transparent mb-10" />
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl sm:text-4xl font-semibold text-white mb-4">
           What People Have to Say
