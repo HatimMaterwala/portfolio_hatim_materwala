@@ -101,10 +101,14 @@ export default function Contact() {
             >
               Send Message
             </button>
-          </form> 
+          </form>
         </div>
 
         <div className="hidden md:block h-[400px]">
+          <Earth />
+        </div>
+
+        <div className="md:hidden w-full h-[260px]">
           <Earth />
         </div>
       </div>
