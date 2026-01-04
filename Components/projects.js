@@ -10,7 +10,7 @@ const projects = [
     description:
       "A LinkedIn-style social network for developers with authentication, follow system, media posts, likes, comments, and full profile management. Built with scalable architecture and deployed to production.",
     tech: ["Next.js", "MongoDB", "NextAuth", "Tailwind", "Vercel"],
-    link: "#",
+    link: "https://devconnect-lac.vercel.app/",
     thumbnail: "assets/img/devconnect.png",
   },
   {
@@ -28,7 +28,7 @@ const projects = [
     description:
       "A full-stack automation tool that processes YouTube links, validates inputs, downloads content securely, and cleans up resources efficiently. Backend deployed separately from frontend.",
     tech: ["FastAPI", "Python", "Next.js", "Railway", "Vercel"],
-    link: "#",
+    link: "https://yt-anything.vercel.app/",
     thumbnail: "assets/img/ytanything.png",
   },
   {
@@ -37,7 +37,7 @@ const projects = [
     description:
       "A book discovery platform using Open Library APIs with pagination, user profiles, favorites management via Jotai, and cookie-based authentication using Express.",
     tech: ["Next.js", "Express", "Jotai", "REST APIs"],
-    link: "#",
+    link: "https://weba3.vercel.app/",
     thumbnail: "assets/img/bookexplorer.png",
   },
 ];
