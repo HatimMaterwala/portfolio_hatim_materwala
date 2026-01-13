@@ -19,7 +19,7 @@ const projects = [
     description:
       "A cloud file storage platform supporting upload, update, delete, sharing, and secure OTP-based authentication. Designed with strong access control and real-world file handling.",
     tech: ["Next.js", "TypeScript", "Appwrite", "Auth", "Cloud Storage"],
-    link: "#",
+    link: "https://storeit-byhatim.vercel.app/",
     thumbnail: "assets/img/storeit.png",
   },
   {
