@@ -40,14 +40,14 @@ export default function WorkHistory() {
               {/* Content */}
               <div>
                 <h3 className="text-2xl font-semibold text-white">
-                  TTC — Summer Software Engineering Intern
+                  TTC — Summer Student Intern
                 </h3>
                 <p className="text-green-400 mt-1">Summer Internship</p>
 
                 <ul className="mt-6 space-y-3 text-gray-300">
-                  <li>• Worked on internal software tools and system workflows</li>
-                  <li>• Collaborated with cross-functional technical teams</li>
-                  <li>• Focused on usability, reliability, and clean design</li>
+                  <li>• Maintained subway stations for passenger safety.</li>
+                  <li>• Collaborated with teams to resolve hazards.</li>
+                  <li>• Ensured facility cleanliness and equipment upkeep.</li>
                 </ul>
 
                 <div className="mt-6 inline-flex items-center gap-2 px-4 py-2 rounded-xl border border-green-400/40 text-green-300 bg-green-900/20">
